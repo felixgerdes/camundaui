@@ -1,0 +1,11 @@
+.taskItem {
+    flex: 1 100%;
+    padding-left: 5%;
+    background-color: #E5E5E5;
+    border-bottom: 1px solid #AAAAAA;
+    border-right: 1px solid #AAAAAA;
+}
+
+.taskItem:hover {
+    background-color: #AAAAAA;
+}

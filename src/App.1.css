@@ -1,12 +1,15 @@
 body {
-
+  height: 100vh;
 }
 
-.mainSider {
-  background-color: #F8F8F8F8;
+.Main {
+  display: flex;
+  flex-flow: row wrap;
 }
 
 header {
+  flex: 1 100%;
+  order: 0;
   height: 10vh;
   background-color: #00325F;
   color: #ffffff;
@@ -14,16 +17,24 @@ header {
 }
 
 footer {
+  flex: 1 100%;
+  order: 3;
+  height: 10vh; 
   background-color: #AAAAAA;
 }
 
 
 aside {
+  flex: 1;
+  order: 1;
+  height: 80vh;
   background-color: #D8D8D8;
-  margin: 0px;
   overflow-y: scroll;
+  margin: 0px;
 }
 
 article {
+  flex: 3;
   background-color: #E5E5E5;
+  order: 2;
 }
